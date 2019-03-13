@@ -2,7 +2,6 @@
 #title {
     color: black;
     margin-bottom: 10px;
-
 }
 
 #projects {
@@ -13,11 +12,6 @@
 .tile.is-child:hover {
     background-color: aliceblue;
     opacity: 0.5;
-}
-
-.tile.is-parent:hover {
-    background-color: aliceblue;
-    opacity: 0.6;
 }
 
 .head {
@@ -39,30 +33,44 @@
     height: 120%;
     width: 120%;
     opacity: 1;
-    transition: .4s ease;
+    transition: .8s ease;
     background-color: aliceblue;
 }
 
 .text {
+    transition: .8s ease;
     color: #080808;
-    text-transform: uppercase;
-    font-size: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    text-align: center;
-    font-family: var(--headerFont);
 }
-
-/* hovers */
 
 .project-info {
     display: flex;
-    align-items: center;
-    margin-left: 10px;
     border: none;
-    justify-content: space-around;
+    justify-content: space-around; 
+}
+
+.tile.is-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tile.is-child {
+    width: 100%;
+}
+
+button.button {
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#portfolio h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-family: 'Raleway', sans-serif;
 }
