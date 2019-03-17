@@ -1,0 +1,56 @@
+.hero-body{
+    background-image: URL('https://images.unsplash.com/photo-1520420097861-e4959843b682?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#allie {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+#hero {
+    font-family: 'Playfair Display', serif;
+    padding: 0;
+    max-width: 50vw;
+    border: 3px solid rgb(255, 255, 255, .9);
+}
+
+#hero > div {
+    background-color: rgb(255, 255, 255, .9);
+    padding: 20px;
+    margin: 10px;
+}
+
+#hi {
+    margin-top: 50px;
+    font-size: 60px;
+    color: #00d1b2;
+    
+}
+
+#subtitleHero {
+    font-size: 30px;
+    color:#00d1b2;
+    line-height: 50px;
+}
+
+.contact-button {
+    font-family: 'Raleway', sans-serif;
+    margin-top: -10px;
+    background-color: white;
+    color: #00d1b2;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: transparent;
+
+}
+
+#bordered-box {
+    border: 1px solid rgb(241, 16, 140);
+    padding: 8px;
+
+}

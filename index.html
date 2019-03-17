@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
@@ -17,38 +18,40 @@
 <!--NavBar-->
 <section class="hero is-primary is-fullheight">
     <!-- Hero head: will stick at the top -->
-        <nav class="level">
-            <p class="level-item has-text-centered">
-              <a class="link is-info" href="#">Home</a>
-            </p>
-            <p class="level-item has-text-centered">
-              <a class="link is-info" href="#aboutMe">About Me</a>
-            </p>
-            <p class="level-item has-text-centered" id="allie">Allie Walker
-              <span></span>
-            </p>
-            <p class="level-item has-text-centered">
-              <a class="link is-info" href="#portfolio">Projects</a>
-            </p>
-            <p class="level-item has-text-centered">
-              <a class="link is-info" href="#contact">Contact</a>
-            </p>
-          </nav>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="true" id="hamburger-button" data-target="navbar-menu">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>  
+          
+          <div class="navbar-menu" id="navbar-menu">
+            <a class="navbar-item" href="#home">Home</a>
+            <a class="navbar-item" href="#aboutMe">About Me</a>
+            <a class="navbar-item" id="allie">Allie Walker</a>
+            <a class="navbar-item" href="#portfolio">Projects</a>
+            <a class="navbar-item" href="#contact">Contact</a>
+        </div>
+    </nav>
+    
   
     <!-- Hero content: will be in the middle -->
-    <div class="hero-body">
-      <div class="container has-text-centered" id="hero">
+<div class="hero-body">
+    <div class="container has-text-centered" id="hero">
+      <div>
         <h1 class="title" id="hi">
           Hi, I'm Allie
         </h1>
         <h2 class="subtitle" id="subtitleHero">
           a Front-End Developer in Los Angeles.
         </h2>
-        <button class="contact-button">              
-          <a class="link is-info" href="#contact">Contact Me</a>
-        </button>
+        <a class="button" id="contact-button"  href="#contact">Contact Me</a> 
       </div>
-    </div>
+                 
+  </div>
+</div>
 </section>
 
   <!-- Skills -->
@@ -84,7 +87,7 @@
 
     <!-- Project sections -->
 
-<section class="container">
+<section class="container" id="portfolio">
   <h2>MY PORTFOLIO</h2>
 
   <!-- API -->
@@ -155,6 +158,7 @@
         <figure class="image is-5by3" id="images">
             <a href="https://aw-intents.herokuapp.com/" target="_blank" title="INtents">
           <img src="./port-assets/Assets/img/intents login.png">
+          </a>
         </figure>
       </article>
       
@@ -184,7 +188,7 @@
       <h3>Shortcut</h3>
       <article class="tile is-child box">
         <figure class="image is-5by3" id="images">
-            <a href="https://aw-app-shortcut-client.herokuapp.com/" target="_blank" title="Shortcut Salon Booking App">
+            <a  target="_blank" title="Shortcut Salon Booking App">
               <img src="./port-assets/Assets/img/Shortcut.jpg">
             </a>
           </figure>
@@ -225,11 +229,12 @@
            
             <p class="column is-centered is-one-third">I went to cosmetology school after high school and was a hair stylist for 5 years where I always enjoyed meeting and getting to know new people.
               Originally from Indiana, I relocated to Los Angeles two years ago after the physical demands of working behind the chair became too much and I decided to switch careers. 
-              </p>
+            </p>
+
             <p class="column is-centered is-one-third">I am a passionate person, always looking to push myself to be a better developer with the goal of creating applications that are both 
-                streamlined and beautiful.You can find my code on <a target= blank href="https://github.com/alliewalker">Github</a>, and learn more 
+              streamlined and beautiful.You can find my code on <a target= blank href="https://github.com/alliewalker">Github</a>, and learn more 
               about me on my<a target= blank href="https://www.linkedin.com/in/allison-walker-a570a516b/">
-            LinkedIn</a> and <a target= blank href="https://docs.google.com/document/d/1mbNJKxAaLWhnGuEvNVw7F1WfKGO3L6OcTIxJPgJe6dA/edit?usp=sharing">resume.</a>
+              LinkedIn</a> and <a target= blank href="https://docs.google.com/document/d/1mbNJKxAaLWhnGuEvNVw7F1WfKGO3L6OcTIxJPgJe6dA/edit?usp=sharing">resume.</a>
             </p>
       </div>
   </section>
@@ -314,7 +319,8 @@
           <span class="is-active">&copy; Allie Walker 2018</span>
       </div>
     </footer>
-    
+
+<script type="text/Javascript" src="js/nav.js"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
