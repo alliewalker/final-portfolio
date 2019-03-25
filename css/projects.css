@@ -9,9 +9,23 @@
     padding: 20px;
 }
 
-.tile.is-child:hover {
-    background-color: aliceblue;
-    opacity: 0.5;
+.tile.is-child {
+    position: relative;
+}
+
+.project-info {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(240, 248, 255, .7);
+    transition: opacity 250ms ease;
+}
+
+.tile.is-child:hover .project-info {
+    opacity: 1;
 }
 
 .head {
@@ -48,11 +62,11 @@
     transform: translate(-50%, -50%);
 }
 
-.project-info {
+/* .project-info {
     display: flex;
     border: none;
     justify-content: space-around; 
-}
+} */
 
 .tile.is-parent {
     display: flex;
