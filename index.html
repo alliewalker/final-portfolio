@@ -1,244 +1,354 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/navbar.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css"> 
-    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Playfair+Display|Raleway" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <link rel="stylesheet" href="css/animate.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Crimson+Text|Playfair+Display|Raleway"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Portfolio</title>
-</head>
-<body>
-
-<!--NavBar-->
-<section class="hero is-primary is-fullheight">
-    <!-- Hero head: will stick at the top -->
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-          <div class="navbar-brand">
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="true" id="hamburger-button" data-target="navbar-menu">
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-            </a>
-          </div>  
-          
-          <div class="navbar-menu" id="navbar-menu">
-            <a class="navbar-item" href="#home">Home</a>
-            <a class="navbar-item" href="#aboutMe">About Me</a>
-            <a class="navbar-item" id="allie">Allie Walker</a>
-            <a class="navbar-item" href="#portfolio">Projects</a>
-            <a class="navbar-item" href="#contact">Contact</a>
+  </head>
+  <body>
+    <!--NavBar-->
+    <section class="hero is-primary is-fullheight">
+      <!-- Hero head: will stick at the top -->
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a
+            role="button"
+            class="navbar-burger burger"
+            aria-label="menu"
+            aria-expanded="true"
+            id="hamburger-button"
+            data-target="navbar-menu"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
         </div>
-    </nav>
-    
-  
-    <!-- Hero content: will be in the middle -->
-<div class="hero-body">
-    <div class="container has-text-centered" id="hero">
-      <div>
-        <h1 class="title" id="hi">
-          Hi, I'm Allie
-        </h1>
-        <h2 class="subtitle" id="subtitleHero">
-          a Front-End Developer in Los Angeles.
-        </h2>
-        <a class="button" id="contact-button"  href="#contact">Contact Me</a> 
+
+        <div class="navbar-menu" id="navbar-menu">
+          <a class="navbar-item" href="#home">Home</a>
+          <a class="navbar-item" href="#aboutMe">About Me</a>
+          <a class="navbar-item" id="allie">Allie Walker</a>
+          <a class="navbar-item" href="#portfolio">Projects</a>
+          <a class="navbar-item" href="#contact">Contact</a>
+        </div>
+      </nav>
+
+      <!-- Hero content: will be in the middle -->
+      <div class="hero-body">
+        <div class="container has-text-centered" id="hero">
+          <div>
+            <h1 class="title" id="hi">
+              Hi, I'm Allie
+            </h1>
+            <h2 class="subtitle" id="subtitleHero">
+              a Front-End Developer in Los Angeles.
+            </h2>
+            <a class="button" id="contact-button" href="#contact">Contact Me</a>
+          </div>
+        </div>
       </div>
-                 
-  </div>
-</div>
-</section>
+    </section>
 
-  <!-- Skills -->
-  
-<section class="container" id="portfolio-icons">
-  <h2>MY SKILLSET</h2>
-  <div class="columns" id="icons">
+    <!-- Skills -->
 
-      <div class="column">
+    <section class="container" id="portfolio-icons">
+      <h2>MY SKILLSET</h2>
+      <div class="columns" id="icons">
+        <div class="column">
           <i class="fab fa-html5 fa-4x has-text-primary"></i>
-            <p id="icon-text">HTML & CSS</p>
-      </div>
-      <div class="column">
+          <p id="icon-text">HTML & CSS</p>
+        </div>
+        <div class="column">
           <i class="fab fa-js fa-4x has-text-primary"></i>
-            <p id="icon-text">JAVASCRIPT</p>
-      </div>
+          <p id="icon-text">JAVASCRIPT</p>
+        </div>
 
-      <div class="column">
+        <div class="column">
           <i class="fab fa-angular fa-4x has-text-primary"></i>
-        <p id="icon-text">ANGULAR</p>
-      </div>
+          <p id="icon-text">ANGULAR</p>
+        </div>
 
-      <div class="column">
-        <i class="fab fa-trello fa-4x has-text-primary"></i>
-        <p id="icon-text">AGILE</p>
-      </div>
+        <div class="column">
+          <i class="fab fa-trello fa-4x has-text-primary"></i>
+          <p id="icon-text">AGILE</p>
+        </div>
 
-      <div class="column">
-        <i class="fab fa-react fa-4x has-text-primary"></i>
-        <p id="icon-text">REACT</p>
-      </div>
+        <div class="column">
+          <i class="fab fa-react fa-4x has-text-primary"></i>
+          <p id="icon-text">REACT</p>
+        </div>
 
-      <div class="column">
-        <i class="fab fa-adobe fa-4x has-text-primary"></i>
-        <p id="icon-text">ADOBE SUITE</p>
+        <div class="column">
+          <i class="fab fa-adobe fa-4x has-text-primary"></i>
+          <p id="icon-text">ADOBE SUITE</p>
+        </div>
       </div>
+    </section>
 
-    </div>
-  </section>
-    
-  <hr class="section-break"> 
+    <hr class="section-break" />
 
     <!-- Project sections -->
-<div class="portfolio-heading">
-  <h2>MY PORTFOLIO</h2>
-</div>
-  <section class="container" id="portfolio">
-
-
-  <!-- API -->
-  <div class="tile is-ancestor" id="boxes">
-    
-
-    <!-- JS tutorial page -->
-    <div class="tile is-parent">
-      <h3>Tutorial Website</h3>
-        <article class="tile is-child box">
-          <figure class="image is-5by3" id="images">
-            <a href="https://alliewalker.github.io/Web-Tutorial/" target="_blank" title="Tutorial Website">
-              <img src="./port-assets/Assets/img/tutorial.png">
-            </a>
-          </figure>
-          <div class="project-info">
-             
-          </div>
-        </article>
-        <div class="dropdown is-hoverable">
+    <div class="portfolio-heading">
+      <h2>MY PORTFOLIO</h2>
+    </div>
+    <section class="container" id="portfolio">
+      <!-- API -->
+      <div class="tile is-ancestor" id="boxes">
+        <!-- JS tutorial page -->
+        <!-- <div class="tile is-parent">
+          <h3>Tutorial Website</h3>
+          <article class="tile is-child box">
+            <figure class="image is-5by3" id="images">
+              <a
+                href="https://alliewalker.github.io/Web-Tutorial/"
+                target="_blank"
+                title="Tutorial Website"
+              >
+                <img src="./port-assets/Assets/img/tutorial.png" />
+              </a>
+            </figure>
+            <div class="project-info"></div>
+          </article>
+          <div class="dropdown is-hoverable">
             <div class="dropdown-trigger">
-              <button class="button" aria-haspopup="true" aria-controls="dropdown-menu4">
+              <button
+                class="button"
+                aria-haspopup="true"
+                aria-controls="dropdown-menu4"
+              >
                 <span class="icon is-small">
-                    <i class="far fa-question-circle" aria-hidden="true" id="buttons"></i>
-                  </span>
+                  <i
+                    class="far fa-question-circle"
+                    aria-hidden="true"
+                    id="buttons"
+                  ></i>
+                </span>
               </button>
             </div>
             <div class="dropdown-menu" id="dropdown-menu4" role="menu">
-                <div class="dropdown-item">
-                  <p>
-                      While attending Eleven Fifty <br>Academy, one of our <br>projects
-                      was to create a static <br>website with general information<Br> on Javascript.
-                      It is deployed with <br>github pages and <br>uses vanilla JS, HTML, and CSS.
-                    </p>            
-                  </div>
+              <div class="dropdown-item">
+                <p>
+                  While attending Eleven Fifty <br />Academy, one of our
+                  <br />projects was to create a static <br />website with
+                  general information<Br /> on Javascript. It is deployed with
+                  <br />github pages and <br />uses vanilla JS, HTML, and CSS.
+                </p>
               </div>
-          </div>    
-    </div>
+            </div>
+          </div>
+        </div> -->
 
-    <!-- intents app -->
-    <div class="tile is-parent">
-      <h3>INtents</h3>
-      <article class="tile is-child box">
-        <figure class="image is-5by3" id="images">
-            <a href="https://aw-intents.herokuapp.com/" target="_blank" title="INtents">
-          <img src="./port-assets/Assets/img/intents login.png">
-          </a>
-        </figure>
-      </article>
-      
-    <div class="dropdown is-hoverable">
-        <div class="dropdown-trigger">
-          <button class="button" aria-haspopup="true" aria-controls="dropdown-menu4">
-            <span class="icon is-small">
-                <i class="far fa-question-circle" aria-hidden="true" id="buttons"></i>
-              </span>
-          </button>
+        <!-- intents app -->
+        <div class="tile is-parent">
+          <h3>INtents</h3>
+          <article class="tile is-child box">
+            <figure class="image is-5by3" id="images">
+              <a
+                href="https://aw-intents.herokuapp.com/"
+                target="_blank"
+                title="INtents"
+              >
+                <img src="./port-assets/Assets/img/intents login.png" />
+              </a>
+            </figure>
+          </article>
+
+          <div class="dropdown is-hoverable">
+            <div class="dropdown-trigger">
+              <button
+                class="button"
+                aria-haspopup="true"
+                aria-controls="dropdown-menu4"
+              >
+                <span class="icon is-small">
+                  <i
+                    class="far fa-question-circle"
+                    aria-hidden="true"
+                    id="buttons"
+                  ></i>
+                </span>
+              </button>
+            </div>
+            <div class="dropdown-menu" id="dropdown-menu4" role="menu">
+              <div class="dropdown-item">
+                <p>
+                  INtents is an app created<br />
+                  for booking camping trips<br />
+                  at National Parks.<br />
+                  It uses the National Parks Service<br />
+                  API to search for<Br /> campgrounds and alerts.<br />
+                  This app was made<br />
+                  with Angular and Material.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="dropdown-menu" id="dropdown-menu4" role="menu">
-            <div class="dropdown-item">
-              <p>
-                INtents is an app created<br> for booking camping trips<br>
-                at National Parks.<br> It uses the National Parks Service<br> API
-                to search for<Br> campgrounds and alerts.<br> This app was made<br>
-                with Angular and Material. 
-              </p>            
-              </div>
-          </div>
-      </div>
-    </div>
 
-    <!-- shortcut -->
-    <div class="tile is-parent">
-      <h3>Shortcut</h3>
-      <article class="tile is-child box">
-        <figure class="image is-5by3" id="images">
-            <a  target="_blank" title="Shortcut Salon Booking App">
-              <img src="./port-assets/Assets/img/Shortcut.jpg">
-            </a>
-          </figure>
-        </article>
-        <div class="dropdown is-hoverable">
+        <!-- shortcut -->
+        <div class="tile is-parent">
+          <h3>Shortcut</h3>
+          <article class="tile is-child box">
+            <figure class="image is-5by3" id="images">
+              <a target="_blank" title="Shortcut Salon Booking App">
+                <img src="./port-assets/Assets/img/Shortcut.jpg" />
+              </a>
+            </figure>
+          </article>
+          <div class="dropdown is-hoverable">
             <div class="dropdown-trigger">
-              <button class="button" aria-haspopup="true" aria-controls="dropdown-menu4">
+              <button
+                class="button"
+                aria-haspopup="true"
+                aria-controls="dropdown-menu4"
+              >
                 <span class="icon is-small">
-                    <i class="far fa-question-circle" aria-hidden="true" id="buttons"></i>
-                  </span>
+                  <i
+                    class="far fa-question-circle"
+                    aria-hidden="true"
+                    id="buttons"
+                  ></i>
+                </span>
               </button>
             </div>
             <div class="dropdown-menu" id="dropdown-menu4" role="menu">
-                <div class="dropdown-item">
-                  <p>
-                      Shorcut is an app that I created <br>for salons and clients to book<br> out multiple
-                      appointments without<br> having to call their stylist and keep <br>track of past appointments.
-                      <br>It was made with React, <br>bootstrap, and CSS.
-                    </p>            
-                  </div>
+              <div class="dropdown-item">
+                <p>
+                  Shorcut is an app that I created <br />for salons and clients
+                  to book<br />
+                  out multiple appointments without<br />
+                  having to call their stylist and keep <br />track of past
+                  appointments. <br />It was made with React, <br />bootstrap,
+                  and CSS.
+                </p>
               </div>
-          </div>    
-      </div>
-    </div>
-</section>
-</div>
-</div>
+            </div>
+          </div>
+        </div>
 
-<hr class="section-break">
-         
-<!--ABOUT ME-->
-<section class="container" id="aboutMe">
-    <h2>ABOUT ME</h2>
+        <div class="tile is-parent">
+          <h3>Picket Fence Entertainment</h3>
+          <article class="tile is-child box">
+            <figure class="image is-5by3" id="images">
+              <a target="_blank" title="Picket Fence Entertainment">
+                <img src="./port-assets/Assets/img/picket-fence.PNG" />
+              </a>
+            </figure>
+          </article>
+          <div class="dropdown is-hoverable">
+            <div class="dropdown-trigger">
+              <button
+                class="button"
+                aria-haspopup="true"
+                aria-controls="dropdown-menu4"
+              >
+                <span class="icon is-small">
+                  <i
+                    class="far fa-question-circle"
+                    aria-hidden="true"
+                    id="buttons"
+                  ></i>
+                </span>
+              </button>
+            </div>
+            <div class="dropdown-menu" id="dropdown-menu4" role="menu">
+              <div class="dropdown-item">
+                <p>
+                  This is a website that <br />I made with React and Bulma for
+                  <br />
+                  a local production company.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-break" />
+
+    <!--ABOUT ME-->
+    <section class="container" id="aboutMe">
+      <h2>ABOUT ME</h2>
       <div class="columns">
-            <p class="column is-centered is-one-third">I am a thorough and detail-oriented former hair stylist currently transitioning into website development. 
-              I went through a JavaScript boot camp through Eleven Fifty Academy founded by Scott Jones where I studied vanilla JS, React, Node.js and Angular. 
-              Before getting my certification, I was introduced to graphic design at my previous job as an Administrative Assitant at an elementary school where I discovered my love for good design practices.    
-            </p>
-           
-            <p class="column is-centered is-one-third">I went to cosmetology school after high school and was a hair stylist for 5 years where I always enjoyed meeting and getting to know new people.
-              Originally from Indiana, I relocated to Los Angeles two years ago after the physical demands of working behind the chair became too much and I decided to switch careers. 
-            </p>
+        <p class="column is-centered is-one-third">
+          I am a thorough and detail-oriented former hair stylist currently
+          transitioning into website development. I went through a JavaScript
+          boot camp through Eleven Fifty Academy founded by Scott Jones where I
+          studied vanilla JS, React, Node.js and Angular. Before getting my
+          certification, I was introduced to graphic design at my previous job
+          as an Administrative Assitant at an elementary school where I
+          discovered my love for good design practices.
+        </p>
 
-            <p class="column is-centered is-one-third">I am a passionate person, always looking to push myself to be a better developer with the goal of creating applications that are both 
-              streamlined and beautiful.You can find my code on <a target= blank href="https://github.com/alliewalker">Github</a>, and learn more 
-              about me on my<a target= blank href="https://www.linkedin.com/in/allison-walker-a570a516b/">
-              LinkedIn</a> and <a target= blank href="https://drive.google.com/file/d/1tq_e7Dy4hrRRrn7Fs4c-HGQXdqo8v9b5/view?usp=sharing">resume.</a>
-            </p>
+        <p class="column is-centered is-one-third">
+          I went to cosmetology school after high school and was a hair stylist
+          for 5 years where I always enjoyed meeting and getting to know new
+          people. Originally from Indiana, I relocated to Los Angeles two years
+          ago after the physical demands of working behind the chair became too
+          much and I decided to switch careers.
+        </p>
+
+        <p class="column is-centered is-one-third">
+          I am a passionate person, always looking to push myself to be a better
+          developer with the goal of creating applications that are both
+          streamlined and beautiful.You can find my code on
+          <a target="blank" href="https://github.com/alliewalker">Github</a>,
+          and learn more about me on my<a
+            target="blank"
+            href="https://www.linkedin.com/in/allison-walker-a570a516b/"
+          >
+            LinkedIn</a
+          >
+          and
+          <a
+            target="blank"
+            href="https://drive.google.com/file/d/1tq_e7Dy4hrRRrn7Fs4c-HGQXdqo8v9b5/view?usp=sharing"
+            >resume.</a
+          >
+        </p>
       </div>
-  </section>
+    </section>
 
-  <hr class="section-break">
-  
-  
-<!-- formspree -->
+    <hr class="section-break" />
 
-<section class="container" id="contact">
-  <h2>CONTACT ME</h2>
+    <!-- formspree -->
 
-    <!-- <div class="row"> -->
+    <section class="container" id="contact">
+      <h2>CONTACT ME</h2>
+
+      <!-- <div class="row"> -->
       <div class="columns is-centered">
-        <form class="column is-half" action="https://formspree.io/walkera71193@gmail.com" method="POST">
-    
+        <form
+          class="column is-half"
+          action="https://formspree.io/walkera71193@gmail.com"
+          method="POST"
+        >
           <div class="inputs">
             <div class="control-group">
               <div class="form-group">
@@ -249,7 +359,8 @@
                   id="name"
                   required
                   data-validation-required-message="Please enter your name"
-                  name="name" >
+                  name="name"
+                />
                 <p class="help-block text-danger"></p>
               </div>
             </div>
@@ -263,20 +374,23 @@
                   id="email"
                   required
                   data-validation-required-message="Please enter your email"
-                  name="_replyto">
+                  name="_replyto"
+                />
                 <p class="help-block text-danger"></p>
               </div>
             </div>
 
             <div class="control-group">
-              <div class="form-group"><textarea
+              <div class="form-group">
+                <textarea
                   class="form-control"
                   rows="5"
                   placeholder="Your Message"
                   id="message"
                   required
                   data-validation-required-message="Please leave a message"
-                  name="message"></textarea>
+                  name="message"
+                ></textarea>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
@@ -290,29 +404,40 @@
           </div>
         </form>
       </div>
- </section>
+    </section>
 
+    <!-- Footer -->
 
-<!-- Footer -->
-
-  <footer id="footer">
+    <footer id="footer">
       <div class="content has-text-centered">
+        <div class="icons">
+          <a
+            target="blank"
+            href="https://www.linkedin.com/in/allison-walker-a570a516b/"
+          >
+            <i class="fab fa-linkedin-in fa-1x has-text-light"></i
+          ></a>
+          <a target="blank" href="https://github.com/alliewalker">
+            <i class="fab fa-github fa-1x has-text-light"></i
+          ></a>
+        </div>
 
-          <div class="icons">
-            
-          <a target="blank" href="https://www.linkedin.com/in/allison-walker-a570a516b/"><i class="fab fa-linkedin-in fa-1x has-text-light"></i></li>
-          <a target="blank" href="https://github.com/alliewalker"><i class="fab fa-github fa-1x has-text-light"></i></li>
-          </div>
-        </a>
-          <span class="is-active">&copy; Allie Walker 2019</span>
+        <span class="is-active">&copy; Allie Walker 2019</span>
       </div>
     </footer>
 
-<script type="text/Javascript" src="js/nav.js"></script>
-<!-- <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script> -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js"
-  integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
-
-</body>
+    <script type="text/Javascript" src="js/nav.js"></script>
+    <!-- <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script> -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.8.2/js/all.js"
+      integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
