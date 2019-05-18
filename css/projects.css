@@ -96,3 +96,7 @@ button.button {
   margin-top: 15px;
   text-align: center;
 }
+
+#graphics {
+  align-items: center;
+}
