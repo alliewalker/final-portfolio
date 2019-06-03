@@ -97,6 +97,15 @@ button.button {
   text-align: center;
 }
 
+/* #porfolio-head {
+  margin-top: 50px;
+  margin-bottom: 50px;
+} */
+
 #graphics {
   align-items: center;
+}
+
+#graphics-line-two {
+  margin-top: -40px;
 }
