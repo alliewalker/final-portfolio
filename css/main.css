@@ -51,3 +51,7 @@ html {
   z-index: 80;
   left: 90vw;
 }
+
+#scroll-top-button:hover {
+  color: rgba(196, 192, 192, 0.9);
+}
