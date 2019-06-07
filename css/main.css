@@ -44,3 +44,10 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+#scroll-top-button {
+  position: fixed;
+  bottom: 18px;
+  z-index: 80;
+  left: 90vw;
+}
